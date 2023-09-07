@@ -29,3 +29,19 @@ var x = document.createElement("INPUT");
 x.setAttribute("type", "text");
 
 app?.appendChild(x);
+
+type BoxProps = {
+  element: string;
+  attr?: Element;
+  children?: Element | Element[];
+};
+
+const Box = (props: BoxProps) => {
+  const el = document.createElement(props.element);
+  const span = document.createElement("span")
+  span.innerHTML = "sbjc"
+  el.append(span, "kcsjzx", "sdjvbkxs")
+  return el
+};
+
+console.log(Box({element: "h1"}))
