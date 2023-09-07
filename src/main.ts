@@ -33,15 +33,13 @@ app?.appendChild(x);
 type BoxProps = {
   element: string;
   attr?: Element;
-  children?: Element | Element[];
+  children?: string | string[] | Element | Element[];
 };
 
 const Box = (props: BoxProps) => {
   const el = document.createElement(props.element);
-  const span = document.createElement("span")
-  span.innerHTML = "sbjc"
-  el.append(span, "kcsjzx", "sdjvbkxs")
+  el.append(props.children)
   return el
 };
 
-console.log(Box({element: "h1"}))
+console.log(Box({element: "h1", children: "sakcvahk"}))
