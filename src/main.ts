@@ -28,7 +28,7 @@ app!.append(
     attr: {
       className: "mt-32 w-10 h-10 bg-gray-200 rounded-full",
       src: "/src/img/images.jfif",
-      id: "",
+      id: "img",
       border: "red",
     },
     children: "name"
@@ -40,7 +40,7 @@ app!.append(
     element: "label",
     attr: {
       className: "mt-4 block mb-2 text-lg font-bold text-gray-900 dark:text-black",
-      id: "",
+      id: "name",
       border: "red",
     },
     children: "name"
@@ -52,10 +52,10 @@ app!.append(
     element: "input",
     attr: {
       className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-      id: "",
+      id: "input1",
       border: "red",
     },
-    children: "vkh"
+    children: "input1"
   })
 )
 
@@ -64,7 +64,7 @@ app!.append(
     element: "label",
     attr: {
       className: "mt-4 block mb-2 text-lg font-bold text-gray-900 dark:text-black",
-      id: "",
+      id: "phone_number",
       border: "red",
     },
     children: "phone number"
@@ -75,10 +75,10 @@ app!.append(
     element: "input",
     attr: {
       className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-      id: "",
+      id: "input2",
       border: "red",
     },
-    children: "kncvxf"
+    children: "input2"
   })
 )
 
@@ -87,7 +87,7 @@ app!.append(
     element: "div",
     attr: {
       className: "flex gap-36 mt-4",
-      id: "",
+      id: "radios",
     },
     children: [
       Box({
@@ -115,7 +115,7 @@ app!.append(
     element: "button",
     attr: {
       className: "bg-gray-500 rounded py-2 px-16 mt-4",
-      id: "",
+      id: "addContactButton",
     },
     children: "add contact"
   })
@@ -126,7 +126,7 @@ app!.append(
     element: "button",
     attr: {
       className: "bg-gray-500 rounded py-2 px-16 mt-4",
-      id: "",
+      id: "showContactButton",
     },
     children: "show contact"
   })
