@@ -13,5 +13,19 @@ h1.appendChild(span);
 
 app?.appendChild(h1);
 
-// const input = document.createElement("input");
-// input.classList.add("bg-red-600")
+const input = document.createElement("input");
+input.classList.add("bg-red-600")
+
+function myFunction() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "text");
+  x.setAttribute("value", "Hello World!");
+  document.body.appendChild(x);
+}
+
+myFunction()
+
+var x = document.createElement("INPUT");
+x.setAttribute("type", "text");
+
+app?.appendChild(x);
