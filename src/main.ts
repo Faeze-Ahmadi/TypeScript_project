@@ -50,23 +50,133 @@ const Box = (props: BoxProps) => {
   return el
 };
 
-console.log(Box({element: "h1", children: "sakcvahk"}));
-app!.append(Box({element: "h1", children: "mehdi malkami"}));
-app!.append(Box({element: "mark", children: "faeze ahmadi"}));
-app!.append(Box({element: "h1", children: ["faeze ahmadi", " ", "loves", " ", "mehdi malkami"]}));
+// console.log(Box({element: "h1", children: "sakcvahk"}));
+// app!.append(Box({element: "h1", children: "mehdi malkami"}));
+// app!.append(Box({element: "mark", children: "faeze ahmadi"}));
+// app!.append(Box({element: "h1", children: ["faeze ahmadi", " ", "loves", " ", "mehdi malkami"]}));
+
+// app!.append(
+//   Box({
+//     element: "ul",
+//     attr: {
+//       className: "bg-red-700",
+//       id: "1000",
+//       style: "red",
+//     },
+//     children: [
+//       Box({element: "li", children: "1"}),
+//       Box({element: "li", children: "2"}),
+//       Box({element: "li", children: "3"})
+//     ]
+//   })
+// );
 
 app!.append(
   Box({
-    element: "ul",
+    element: "img",
     attr: {
-      className: "bg-red-700",
-      id: "1000",
-      style: "red",
+      className: "mt-32 w-10 h-10 bg-gray-200 rounded-full",
+      src: "/src/img/images.jfif",
+      id: "",
+      border: "red",
+    },
+    children: "name"
+  })
+)
+
+app!.append(
+  Box({
+    element: "label",
+    attr: {
+      className: "mt-4 block mb-2 text-lg font-bold text-gray-900 dark:text-black",
+      id: "",
+      border: "red",
+    },
+    children: "name"
+  })
+)
+
+app!.append(
+  Box({
+    element: "input",
+    attr: {
+      className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+      id: "",
+      border: "red",
+    },
+    children: "vkh"
+  })
+)
+
+app!.append(
+  Box({
+    element: "label",
+    attr: {
+      className: "mt-4 block mb-2 text-lg font-bold text-gray-900 dark:text-black",
+      id: "",
+      border: "red",
+    },
+    children: "phone number"
+  })
+)
+app!.append(
+  Box({
+    element: "input",
+    attr: {
+      className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+      id: "",
+      border: "red",
+    },
+    children: "kncvxf"
+  })
+)
+
+app!.append(
+  Box({
+    element: "div",
+    attr: {
+      className: "flex gap-36 mt-4",
+      id: "",
     },
     children: [
-      Box({element: "li", children: "1"}),
-      Box({element: "li", children: "2"}),
-      Box({element: "li", children: "3"})
+      Box({
+        element: "input",
+        attr: {
+          className: "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300",
+          type: "radio",
+        },
+        children: "SIM"
+      }),
+      Box({
+        element: "input",
+        attr: {
+          className: "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300",
+          type: "radio",
+        },
+        children: "Storage"
+      })
     ]
+  })
+)
+
+app!.append(
+  Box({
+    element: "button",
+    attr: {
+      className: "bg-gray-500 rounded py-2 px-16 mt-4",
+      id: "",
+    },
+    children: "add contact"
+  })
+)
+
+app!.append(
+  Box({
+    element: "button",
+    attr: {
+      className: "bg-gray-500 rounded py-2 px-16 mt-4",
+      id: "",
+    },
+    children: "show contact"
   })
 )
