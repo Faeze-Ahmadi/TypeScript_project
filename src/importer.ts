@@ -1,0 +1,9 @@
+export const email = document.querySelector<HTMLInputElement>("#email");
+export const password = document.querySelector<HTMLInputElement>("#password");
+export const SIM = document.querySelector<HTMLInputElement>("#SIM");
+export const Device = document.querySelector<HTMLInputElement>("#Device");
+export const button = document.querySelector<HTMLButtonElement>("#add_button");
+export const button_2 = document.querySelector<HTMLButtonElement>("#show_button");
+export const drawer_List = document.querySelector<HTMLButtonElement>("#drawer_List");
+export const removeButton = document.querySelector<HTMLButtonElement>("#removeButton");
+export const listcontactas = document.querySelector<HTMLUListElement>("#listcontactas");
