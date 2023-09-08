@@ -133,3 +133,20 @@ app!.append(
     children: "show contact"
   })
 )
+
+
+import { 
+  button,
+  button_2,
+  removeButton,
+} from "./importer.js";
+
+import {
+  showContactButtonHandler,
+  closeContactButtonHandler,
+  HandlerCreatContact
+} from "./events.js"
+
+button_2?.addEventListener("click", showContactButtonHandler);
+removeButton?.addEventListener("click", closeContactButtonHandler);
+button?.addEventListener("click", HandlerCreatContact);
