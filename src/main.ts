@@ -28,7 +28,7 @@ app!.append(
     attr: {
       className: "mt-32 w-10 h-10 bg-gray-200 rounded-full",
       src: "/src/img/images.jfif",
-      id: "img",
+      id: "exampleWrapper",
       border: "red",
     },
     children: "name"
@@ -52,7 +52,7 @@ app!.append(
     element: "input",
     attr: {
       className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-      id: "input1",
+      id: "email",
       border: "red",
     },
     children: "input1"
@@ -75,7 +75,7 @@ app!.append(
     element: "input",
     attr: {
       className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-      id: "input2",
+      id: "password",
       border: "red",
     },
     children: "input2"
@@ -95,6 +95,7 @@ app!.append(
         attr: {
           className: "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300",
           type: "radio",
+          id: "SIM"
         },
         children: "SIM"
       }),
@@ -103,8 +104,9 @@ app!.append(
         attr: {
           className: "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300",
           type: "radio",
+          id: "Device"
         },
-        children: "Storage"
+        children: "Device"
       })
     ]
   })
@@ -115,7 +117,7 @@ app!.append(
     element: "button",
     attr: {
       className: "bg-gray-500 rounded py-2 px-16 mt-4",
-      id: "addContactButton",
+      id: "add_button",
     },
     children: "add contact"
   })
@@ -126,7 +128,7 @@ app!.append(
     element: "button",
     attr: {
       className: "bg-gray-500 rounded py-2 px-16 mt-4",
-      id: "showContactButton",
+      id: "show_button",
     },
     children: "show contact"
   })
